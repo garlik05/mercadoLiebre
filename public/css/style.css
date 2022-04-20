@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --Amarillo :  #EAC926 ;
+    --Azul: #03264C ;
+    --Celeste: #1259c3 ;
+    --Gris-oscuro : #666 ;
+    --Gris-claro : #ebebeb ;
+    --Verde: #39b54a;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' ;
+}
+body{
+    font-size: 12px;
+}
+header{
+    background-color: var(--Amarillo);
+}
+
+.titular{
+    font-size: 24px;
+}
+.precio{
+    font-size: 18px;
+}
+
+.descuento{
+    font-size: 16px;
+}
+.descripcion{
+    font-size: 16px;
+}
+.burger-menu{
+    background: var(--Celeste);
+    color: var(--Gris-claro);
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+footer{
+    text-align: center;
+}
+footer section{
+    margin-bottom: 30px;
+}
+footer i {
+    color: var(--Celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
