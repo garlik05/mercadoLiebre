@@ -1,0 +1,28 @@
+footer {
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 0;
+    
+  }
+
+  footer section{
+      padding: 50px 30px 0 ;
+  }
+ 
+  footer i {
+    color: var(--Celeste);
+    font-size: var(2em);
+    margin-bottom: 10px;
+  }
+
+  footer h3{
+    margin: 0;
+    color: var(--Gris-oscuro);      
+  }
+
+  footer p{
+      margin: 0;
+  }
+  footer .copy p{
+    text-align: initial;
+  }

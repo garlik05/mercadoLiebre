@@ -1,0 +1,33 @@
+header {
+  background-color: var(--Amarillo);
+  padding: 20px 0;
+}
+header .container__logo{
+  width: 100%;
+}
+header .container__logo .logo {
+  width: 50%;
+}
+header .container__logo .busqueda{
+  width: 50%;
+}
+header nav ul{
+  display: none;
+}
+
+
+.compraCuotas {
+  text-align: center;
+}
+
+.burger-menu {
+  background: var(--Celeste);
+  color: white;
+  font-size: 1.5rem;
+  padding: 8px;
+  border-radius: 4px;
+  width: 25px;
+  margin: 0 auto;
+  text-align: center;
+}
+

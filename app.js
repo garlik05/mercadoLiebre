@@ -8,6 +8,9 @@ app.use(express.static(path.join(__dirname,'public')));
 app.get('/', (req,res)=> {
     res.sendFile(path.resolve(__dirname,'views','index.html'))
 });
+app.get('/register.html', (req,res)=> {
+    res.sendFile(path.resolve(__dirname,'views','register.html'))
+});
 
 
 app.listen(port,()=> console.log(`Server run on port http://Localhost:${port}`));
